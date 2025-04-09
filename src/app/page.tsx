@@ -17,15 +17,7 @@ export default async function Home() {
   return (
     <div className="">
       <div className="mt-36 ml-8">
-        <h2 className="text-8xl font-extrabold text-center"><span className="text-melon">Pokemon</span> or <span className="text-white">Software?</span></h2>
-        <ul>
-          <li>{data.name}</li>
-        </ul>
-      </div>
-
-      <div className="mt-36 w-full flex justify-center items-center gap-x-12">
-        <button className="border border-black px-4 py-2 rounded-lg text-2xl uppercase">Pokemon</button>
-        <button className="border border-black px-4 py-2 rounded-lg text-2xl uppercase">Software</button>
+        <h2 className="text-5xl font-extrabold"><span className="text-melon">Pokemon</span> or <span className="text-white">Software?</span></h2>
       </div>
     </div>
   );
