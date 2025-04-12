@@ -15,16 +15,16 @@ export default async function Home() {
 
 
   return (
-    <div className="">
-      <div className="mt-36 ml-8">
-        <h2 className="text-5xl font-extrabold"><span className="text-melon">Pokemon</span> or <span className="text-white">Software?</span></h2>
-        <ul>
+    <div className="bg-midyellow h-screen">
+      <div className="pt-36 ml-8">
+        <h2 className="text-9xl font-extrabold text-center"><span className="text-red">Pokemon</span> or <span className="text-blue">Software?</span></h2>
+        <ul className="text-center text-5xl font-bold uppercase border-2 border-black max-w-2xl mx-auto mt-24 py-24 rounded-lg">
           <li>{data.name}</li>
         </ul>
       </div>
       <div className="mt-36 w-full flex justify-center items-center gap-x-12">
-        <button className="border border-black px-4 py-2 rounded-lg text-2xl uppercase">Pokemon</button>
-        <button className="border border-black px-4 py-2 rounded-lg text-2xl uppercase">Software</button>
+        <button className="border-2 border-black hover:bg-blue hover:cursor-pointer hover:text-white px-4 py-2 rounded-lg text-2xl uppercase" id="pokemon"><img src="/pokemonlogo.png" alt="" className="w-32"/></button>
+        <button className="border-2 border-black px-4 py-2 rounded-lg text-2xl uppercase" id="software">Software</button>
       </div>
 
       

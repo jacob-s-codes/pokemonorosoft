@@ -2,7 +2,11 @@
 
 
 @theme inline {
-  --color-blue: #0075BE;
-  --color-yellow: #FFCC00;
+  --color-blue: #264653;
+  --color-lightblue: #2a9d8f;
+  --color-midyellow: #e9c46a;
+  --color-orange: #f4a261;
+  --color-red: #e76f51;
+
 }
 
