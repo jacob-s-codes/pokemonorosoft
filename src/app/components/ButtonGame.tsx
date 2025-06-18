@@ -76,14 +76,16 @@ export default function ButtonGame({ pokemonNames }: { pokemonNames: string[] })
 
     return (
         <div className="text-center pt-24 h-screen bg-midyellow">
-            <h2 className="text-5xl font-bold mb-16">
+            <h2 className="xl:text-7xl lg:text-5xl text-4xl font-bold mb-16">
                 Is it a <span className="text-red">Pokémon</span> or <span className="text-blue">Software</span>?
             </h2>
-            {showQuestion && (
-            <ul className="text-6xl font-bold uppercase border-2 border-black max-w-2xl mx-auto py-16 rounded-lg mb-12">
-                <li id="guess">{currentQuestion?.name}</li>
-            </ul>
-            )}
+            <div className='mx-4'>
+                {showQuestion && (
+                <ul className="text-6xl font-bold uppercase border-2 border-black max-w-2xl mx-auto py-16 rounded-lg mb-12">
+                    <li id="guess">{currentQuestion?.name}</li>
+                </ul>
+                )}
+            </div>
             {feedback && <p className="text-2xl mb-4">{feedback}</p>}
 
             <div className="flex justify-center items-center gap-x-12">

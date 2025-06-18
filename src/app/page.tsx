@@ -20,7 +20,7 @@ export default async function Home() {
 
   return (
     <div className="bg-midyellow h-screen">
-      <h2 className="text-9xl font-extrabold text-center"><span className="text-red">Pokemon</span> or <span className="text-blue">Software?</span></h2>
+      {/* <h2 className="xl:text-9xl lg:text-7xl text-5xl font-extrabold text-center"><span className="text-red">Pokemon</span> or <span className="text-blue">Software?</span></h2> */}
       {/* <div className="pt-20 ml-8">
         <h2 className="text-9xl font-extrabold text-center"><span className="text-red">Pokemon</span> or <span className="text-blue">Software?</span></h2>
         <ul className="text-center text-5xl font-bold uppercase border-2 border-black max-w-2xl mx-auto mt-24 py-24 rounded-lg">
@@ -31,7 +31,7 @@ export default async function Home() {
 
       <footer className="text-center pb-12  bg-blue">
         <hr />
-        <div className="text-xl flex flex-row justify-center items-center gap-x-8 pt-4 text-white">
+        <div className="text-xl flex lg:flex-row flex-col justify-center items-center lg:gap-x-8 gap-y-4 pt-4 text-white">
           <p>Made by <a href="https://github.com/jacob-s-codes" className=" hover:text-red" target="_blank">@jacob-s-codes</a></p>
           <p>All credit for the idea goes to <a href="https://www.youtube.com/shorts/b-CaKFaefAM" className=" hover:text-red" target="_blank">@Mewtru</a></p>
 
