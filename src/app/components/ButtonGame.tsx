@@ -99,7 +99,7 @@ export default function ButtonGame({ pokemonNames }: { pokemonNames: string[] })
                     className="border-2 border-black hover:bg-blue hover:text-white px-6 py-4 rounded-lg text-2xl uppercase"
                     onClick={() => handleGuess('software')}
                 >
-                    <img src="/wwwlogo.png" alt="Software" className="w-32" />
+                    <img src="/softwarelogo.png" alt="Software" className="w-32" />
                 </button>
             </div>
 
